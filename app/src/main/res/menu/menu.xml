@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/propietario"
+            android:icon="@drawable/propietario"
+            android:title=""
+            android:enabled="false"
+            android:checkable="false"/>
+    <item
+            android:id="@+id/salir"
+            android:icon="@drawable/salir"
+            android:title="@string/title_salir"
+    />
+</menu>

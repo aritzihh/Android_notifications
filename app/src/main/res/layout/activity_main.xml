@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.aritzi.notificacionsicanetv2.MainActivity" tools:layout_editor_absoluteY="81dp"
+        tools:layout_editor_absoluteX="0dp">
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            />
+        <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:background="@color/gris">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:id="@+id/layout_button_justificar"
+                        >
+                        </LinearLayout>
+                        <TextView
+                                android:text="@string/label_no_incidencia"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" android:id="@+id/textView3"
+                                android:fontFamily="serif"
+                                android:textSize="20sp"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text=""
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/noReporte"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text="@string/label_no_poliza"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="serif"
+                                android:textSize="20sp"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text=""
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/no_poliza"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text="@string/label_estado"
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:fontFamily="serif"
+                                android:textSize="20sp"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text=""
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:id="@+id/estado" android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text="@string/label_cliente"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/label_Cliente"
+                                android:fontFamily="serif"
+                                android:textSize="20sp"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text=""
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:id="@+id/cliente" android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text="@string/label_domicilio"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/label_Domicilio"
+                                android:fontFamily="serif"
+                                android:textSize="20sp"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text=""
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:id="@+id/domicilio" android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text="@string/label_fecha_hora"
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:fontFamily="serif"
+                                android:textSize="20sp"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text=""
+                                android:layout_width="wrap_content" android:layout_height="match_parent"
+                                android:id="@+id/fecha_hora" android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text="@string/label_reportador"
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:fontFamily="serif"
+                                android:textSize="20sp"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text=""
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:id="@+id/reportador" android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text="@string/label_tipo"
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:fontFamily="serif"
+                                android:textSize="20sp"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text=""
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:id="@+id/tipo" android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text="@string/label_detalles"
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:fontFamily="serif"
+                                android:textSize="20sp"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text=""
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:id="@+id/detalles" android:textSize="18sp" android:textAlignment="inherit"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text="@string/label_descripcion"
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:fontFamily="serif"
+                                android:textSize="20sp"
+                                android:textColor="@android:color/background_light"/>
+
+                        <TextView
+                                android:text=""
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:id="@+id/descripcion" android:textSize="18sp"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text="@string/label_empleado_registro"
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:fontFamily="serif"
+                                android:textSize="20sp"
+                                android:textColor="@android:color/background_light"/>
+
+                        <TextView
+                                android:text=""
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:id="@+id/empleado_registro"
+                                android:textColor="@android:color/background_light"/>
+                        <TextView
+                                android:text=""
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:id="@+id/tiempo_tardo" android:textColor="@android:color/background_light"/>
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:id="@+id/layout_button_tomar"
+                        >
+                        </LinearLayout>
+                        <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/layout_soluciones">
+                        </LinearLayout>
+                </LinearLayout>
+        </ScrollView>
+</LinearLayout>

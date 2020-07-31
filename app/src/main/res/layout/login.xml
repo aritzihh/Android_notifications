@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:paddingLeft="10sp" android:paddingRight="10sp" android:background="?attr/colorControlActivated">
+    <ImageView
+            android:layout_height="wrap_content"
+            android:src="@drawable/android2"
+            android:scaleType="fitXY" android:adjustViewBounds="true" android:cropToPadding="false"
+            android:visibility="visible" android:layout_width="match_parent" android:id="@+id/imageView"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_usuario"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center" android:layout_marginTop="20sp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usuario"
+            android:layout_marginTop="10sp" android:background="#c7c8c6" android:textSize="18sp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_contrasena"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="10sp" android:id="@+id/textView"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/contrasena"
+            android:layout_marginTop="10sp" android:textSize="18sp" android:background="#c7c8c6"/>
+    <Button
+            android:layout_width="286dp"
+            android:text="@string/button_login"
+            android:id="@+id/button_login" android:layout_height="wrap_content"
+            android:textColor="@android:color/background_light" android:background="@color/colorAccent"
+            android:layout_marginLeft="20sp" android:layout_marginTop="10sp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/alert_login"
+            android:textSize="18sp" android:textColor="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"/>
+
+</LinearLayout>

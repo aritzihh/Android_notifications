@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "435445210361",
+    "firebase_url": "https://sicanet-movil.firebaseio.com",
+    "project_id": "sicanet-movil",
+    "storage_bucket": "sicanet-movil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435445210361:android:12d29099be3da084",
+        "android_client_info": {
+          "package_name": "com.example.aritzi.notificacionsicanetv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435445210361-m0kh31trdmp3lrs71f25u1kie96aa4cc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aritzi.notificacionsicanetv2",
+            "certificate_hash": "31afeef2263fe6377c4e4fec9bbdb3279e848629"
+          }
+        },
+        {
+          "client_id": "435445210361-vlk9lspksfqo7asovo3pf4uq4lhrojp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpOhcIp8G-B8HP5xp6elEKSlp5YXYFCbU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435445210361-vlk9lspksfqo7asovo3pf4uq4lhrojp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Notificaciones SICANETSC</string>
+    <string name="titulo_nueva_incidencia">Nueva incidencia</string>
+    <string name="label_no_incidencia">Reporte no.</string>
+    <string name="label_no_poliza">Con no. de póliza</string>
+    <string name="label_empleado_registro">Registrado por</string>
+    <string name="label_estado">Estado</string>
+    <string name="label_cliente">Cliente</string>
+    <string name="label_domicilio">Domicilio</string>
+    <string name="label_fecha_hora">Fecha y hora</string>
+    <string name="label_reportador">Reportado por</string>
+    <string name="label_tipo">Tipo</string>
+    <string name="label_detalles">Detalles</string>
+    <string name="label_descripcion">Descripción</string>
+    <string name="label_usuario">Usuario:</string>
+    <string name="label_contrasena">Contraseña:</string>
+    <string name="button_login">Iniciar sesión</string>
+    <string name="advertencia_datos_login">!El usuario o la contraseña son incorrectos!</string>
+    <string name="title_pendientes">Incidencias</string>
+    <string name="title_salir">Salir</string>
+    <string name="usuario_key">username</string>
+    <string name="texto_button">Tomar incidencia</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_responder_activity">Mensaje de justificación</string>
+
+    <string name="label_no_reporte">Reporte no.</string>
+    <string name="placeholder">Escriba la razón por la cual no ha terminado de solucionar la incidencia.</string>
+    <string name="btn_justificar">Enviar justificación</string>
+</resources>
